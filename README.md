@@ -5,7 +5,7 @@ Home: http://nixos.org/patchelf.html
 
 Package license: GPL 3
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: A small utility to modify the dynamic linker and RPATH of ELF executables.
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/patchelf-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/patchelf-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/patchelf-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/patchelf-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/patchelf-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/patchelf-feedstock/branch/master)
