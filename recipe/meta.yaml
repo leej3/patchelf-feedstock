@@ -7,7 +7,7 @@ package:
 source:
   fn: patchelf-{{ version }}.tar.gz
   url: http://nixos.org/releases/patchelf/patchelf-{{ version }}/patchelf-{{ version }}.tar.gz
-  md5: 3c265508526760f233620f35d79c79fc
+  sha256: b0a96997382ec3597aee1376a9f6dfed04053c83f2b3d1062cc7b7cec4c6c95b
 
 build:
   number: 1
