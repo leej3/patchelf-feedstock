@@ -14,8 +14,9 @@ source:
     - 85.patch
 
 build:
-  number: 1003
+  number: 1004
   skip: true  # [not linux]
+  binary_relocation: False
 
 requirements:
   build:
@@ -25,7 +26,7 @@ requirements:
 
 test:
   commands:
-    - patchelf --help
+    - test "$(patchelf --version)" == "patchelf {{ version }}"
 
 about:
   home: http://nixos.org/patchelf.html
