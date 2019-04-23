@@ -8,10 +8,6 @@ source:
   fn: patchelf-{{ version }}.tar.gz
   url: http://nixos.org/releases/patchelf/patchelf-{{ version }}/patchelf-{{ version }}.tar.gz
   sha256: b2deabce05c34ce98558c0efb965f209de592197b2c88e930298d740ead09019
-  patches:
-    # --replace-needed updates .gnu-version_r table, see:
-    # https://github.com/NixOS/patchelf/pull/85
-    - 85.patch
 
 build:
   number: 0
