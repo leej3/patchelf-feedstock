@@ -3,7 +3,7 @@ About patchelf
 
 Home: http://nixos.org/patchelf.html
 
-Package license: GPL 3
+Package license: GPL-3.0-or-later
 
 Feedstock license: BSD 3-Clause
 
