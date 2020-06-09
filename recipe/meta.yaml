@@ -26,7 +26,7 @@ test:
 
 about:
   home: http://nixos.org/patchelf.html
-  license: GPL 3
+  license: GPL-3.0-or-later
   license_file: COPYING
   summary: A small utility to modify the dynamic linker and RPATH of ELF executables.
   description: |
